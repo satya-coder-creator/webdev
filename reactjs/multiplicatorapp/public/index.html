@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplicator App using React</title>
+</head>
+<body>
+    <div className="container">
+        <h1>Multiply</h1>
+        <div className="form-group">
+            <label>Enter operand 1</label>
+            <input type="number" id="num1" ref={this.op1Ref} placeholder="enter operand 1"> 
+        </div>
+        <div className="form-group">
+            <label>Enter operand 2</label>
+            <input type="number" id="num2" ref={this.op1Ref} placeholder="enter operand 2"> 
+        </div>
+        <div>
+            <p ref={this.resultRef}></p>
+        </div>
+        <div>
+            <button type="button" className="btn" onClick="this.mysubmit()"> Multiply</button>
+        </div>
+    </div>
+</body>
+</html>
