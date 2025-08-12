@@ -3,21 +3,17 @@ body {
     background-color: #0D1117;
     color: #C9D1D9;
 }
-
 h1 {
     color: #58A6FF;
 }
-
 /* Attribute Selector */
 a {
     color: #8B949E;
     text-decoration: none;
 }
-
 a:hover {
     color: #1F6FEB;
 }
-
 /* Child Selector */
 ul > li {
     font-weight: bold;
@@ -37,20 +33,17 @@ ul li:hover {
 
 /* :nth-child(n) Pseudo-class */
 ul li:nth-child(3) {
-    background-color: #21262D;
+    background-color:yellowgreen;
     
 }
-
 /* :not(selector) Pseudo-class */
 p:not(:first-of-type) {
     text-decoration: underline;
 }
-
 /* ::before Pseudo-element */
 ul li ::before {
     content: "🚀 ";
 }
-
 /* ::after Pseudo-element */
 a::after {
     content: " 🌌";

@@ -1,0 +1,10 @@
+h3{
+    color:orange;
+}
+h4,h5,h6{
+    color:magenta;
+}
+*{
+    text-align: center;
+    background-color: brown;
+}
